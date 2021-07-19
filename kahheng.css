@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+  margin:0;
+  font-family: Montserrat,serif;
+}
+
+header{
+  background-image: url(KL2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:530px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+#name{
+  text-align:  left;
+  position:absolute;
+  top:40%;
+  margin-left: 4%;
+  font-size:125%;
+}
+.navbar {
+  display: inline-block;
+  font-size: 125%;
+  position:absolute;
+  left:17%;
+  bottom: 20%;
+}
+.navbar a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 25px;
+  background: white;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.navbar a:hover{
+  opacity: 1;
+}
+body{
+  margin-left: 20px;
+
+}
+h2{
+  margin-top: 40px;
+}
+
+.about_me{
+  display:inline-block;
+  float: left;
+}
+.my_pic{
+  float: left;
+  width:150px;
+  height: 150px;
+  margin:15px;
+  border-radius: 50%;
+}
+.about_me p{
+  border: 2pt solid white;
+  margin-top: 50px;
+  margin-left: 180px;
+  padding-left: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+}
+
+.education p{
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 15px;
+  margin-right:700px;
+  padding:10px;
+  padding-right:50px;
+}
+#work_content{
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 15px;
+  padding:10px;
+}
+
+#courses_content{
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+  margin-right: 60%;
+  margin-top: 15px;
+  padding:10px;
+}
+#courses_content span{
+  font-weight: bold;
+}
+
+.button{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.button_text , .button_icons{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  height: 100%;
+}
+.button:hover{
+  opacity: 0.8;
+}
+
+
+.button_icons{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08); /* black color */
+}
+
+.contact_info h2{
+  margin-bottom: 15px;
+}
