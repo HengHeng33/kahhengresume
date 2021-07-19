@@ -10,7 +10,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   height:530px;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   position: relative;
 }
 
@@ -42,12 +42,13 @@ header{
 .navbar a:hover{
   opacity: 1;
 }
-body{
-  margin-left: 20px;
-
+.body_content{
+  margin-left:20px ;
 }
+
 h2{
-  margin-top: 40px;
+  margin-top: 20px;
+  
 }
 
 .about_me{
